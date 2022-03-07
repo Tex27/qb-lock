@@ -24,3 +24,12 @@ end)
 # Amount of time to spin and amount of time to trigger are currently held within the js I am trying to export it to lua
 # Amount and Time now work, but functioning success now doesn't go over to the export.
 # Fixed the Lockpick now ready for use, enjoy!
+
+## Useful Snippet
+for everyone here that wants to add the minigame to other script in a very simple way
+
+local seconds = math.random(9,12)
+local circles = math.random(1,3)
+local success = exports['qb-lock']:StartLockPickCircle(circles, seconds, success)
+if success then
+QBCore.Functions.Notify("Tex is awesome", "success")
