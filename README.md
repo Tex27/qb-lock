@@ -1,6 +1,6 @@
 # qb-lockpick
  NoPixel Based Lockpick for QBFramework
- all credits go to Nathan#8860, i only did an nopixel inpired reskin
+ all credits go to Nathan#8860, i only did the UI change
  Nathan's github: https://github.com/NathanERP
 
 
