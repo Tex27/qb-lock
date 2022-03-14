@@ -38,4 +38,5 @@ local circles = math.random(1,3)
 local success = exports['qb-lock']:StartLockPickCircle(circles, seconds, success)
 if success then
 QBCore.Functions.Notify("Tex is awesome", "success")
+end
 ```
