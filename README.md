@@ -5,8 +5,11 @@
 
 
 # Template
+```lua
+
 exports['qb-lock']:StartLockPickCircle(amount, time, function(success)
 
+```
 # Example useage
 ```lua
 
